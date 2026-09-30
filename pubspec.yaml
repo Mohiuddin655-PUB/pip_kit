@@ -1,7 +1,9 @@
 name: pip_kit
 description: "System Picture in Picture for any Flutter widget, video or self-contained route flow, on Android and iOS."
-version: 0.0.1
-homepage:
+version: 1.0.1
+homepage: https://github.com/Mohiuddin655-PUB/pip_kit
+repository: https://github.com/Mohiuddin655-PUB/pip_kit
+issue_tracker: https://github.com/Mohiuddin655-PUB/pip_kit/issues
 
 environment:
   sdk: ^3.13.2

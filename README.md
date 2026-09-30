@@ -4,11 +4,29 @@ System Picture in Picture for Flutter, for more than video: put **any widget**,
 a **playing video**, or a **self-contained route flow** in the floating window,
 on Android and iOS.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mohiuddin655-PUB/pip_kit/main/doc/demo.gif" width="300" alt="pip_kit demo: a live widget with buttons, a route flow and a video in the Picture-in-Picture window" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Mohiuddin655-PUB/pip_kit/raw/main/doc/demo.mp4">Watch the demo in full quality</a>
+</p>
+
+A live counter driven by buttons on the window, a three-step route flow that
+runs only inside the window, and a video — all from the [example app](example/lib/main.dart).
+
 ```dart
 await PipController.instance.enter(
   content: PipContent.widget((context) => const MyMiniPlayer()),
   options: const PipOptions(aspectRatio: PipAspectRatio.square),
 );
+```
+
+## Install
+
+```yaml
+dependencies:
+  pip_kit: ^1.0.1
 ```
 
 ## What each platform can do

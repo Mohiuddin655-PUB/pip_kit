@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'pip_kit'
-  s.version          = '0.0.1'
+  s.version          = '1.0.1'
   s.summary          = 'System Picture in Picture for any Flutter content.'
   s.description      = <<-DESC
 System Picture in Picture for any Flutter widget, video or self-contained route flow.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/Mohiuddin655-PUB/pip_kit'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Mohiuddin' => 'https://github.com/Mohiuddin655-PUB' }
   s.source           = { :path => '.' }
   s.source_files = 'pip_kit/Sources/pip_kit/**/*'
   s.dependency 'Flutter'

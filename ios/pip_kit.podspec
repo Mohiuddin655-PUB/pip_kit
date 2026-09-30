@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'pip_kit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'System Picture in Picture for any Flutter content.'
   s.description      = <<-DESC
 System Picture in Picture for any Flutter widget, video or self-contained route flow.

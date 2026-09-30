@@ -1,9 +1,19 @@
 name: pip_kit
 description: "System Picture in Picture for any Flutter widget, video or self-contained route flow, on Android and iOS."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Mohiuddin655-PUB/pip_kit
 repository: https://github.com/Mohiuddin655-PUB/pip_kit
 issue_tracker: https://github.com/Mohiuddin655-PUB/pip_kit/issues
+
+screenshots:
+  - description: A live counter widget in the Picture-in-Picture window, driven by buttons on the window.
+    path: doc/screenshots/widget.jpg
+  - description: A self-contained route flow running inside the Picture-in-Picture window.
+    path: doc/screenshots/route_flow.jpg
+  - description: A video playing in the Picture-in-Picture window.
+    path: doc/screenshots/video.jpg
+  - description: The example app with widget, video and route-flow entry points.
+    path: doc/screenshots/app.jpg
 
 environment:
   sdk: ^3.13.2

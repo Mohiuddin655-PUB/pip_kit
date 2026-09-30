@@ -15,6 +15,10 @@ on Android and iOS.
 A live counter driven by buttons on the window, a three-step route flow that
 runs only inside the window, and a video — all from the [example app](example/lib/main.dart).
 
+| Any widget, live | A separate route flow | Video |
+| :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Mohiuddin655-PUB/pip_kit/main/doc/screenshots/widget.jpg" width="220" alt="A live counter widget in the Picture-in-Picture window" /> | <img src="https://raw.githubusercontent.com/Mohiuddin655-PUB/pip_kit/main/doc/screenshots/route_flow.jpg" width="220" alt="Step 2 of a route flow running inside the Picture-in-Picture window" /> | <img src="https://raw.githubusercontent.com/Mohiuddin655-PUB/pip_kit/main/doc/screenshots/video.jpg" width="220" alt="A video playing in the Picture-in-Picture window" /> |
+
 ```dart
 await PipController.instance.enter(
   content: PipContent.widget((context) => const MyMiniPlayer()),
@@ -26,7 +30,7 @@ await PipController.instance.enter(
 
 ```yaml
 dependencies:
-  pip_kit: ^1.0.1
+  pip_kit: ^1.0.2
 ```
 
 ## What each platform can do

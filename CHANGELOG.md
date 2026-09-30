@@ -1,3 +1,7 @@
+## 1.0.2
+
+* README: screenshots of widget, route-flow and video content; package screenshots on pub.dev.
+
 ## 1.0.1
 
 * Widget, video and route-flow content in the system Picture-in-Picture window.
